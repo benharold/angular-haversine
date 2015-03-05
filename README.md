@@ -6,7 +6,7 @@ Adapted from [haversine for Node.js](https://github.com/niix/haversine) by [niix
 
 ## Changelog
 
-- 2015-03-12 - v0.1.0 - Initial release.
+- 2015-03-04 - v0.1.0 - Initial release.
 
 ## Installation
 
