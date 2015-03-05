@@ -40,13 +40,14 @@ Define the `benharold.haversine` dependency on your module and the `haversine` s
 
 ## Testing
 
-To run the unit tests, clone the repository and install dependencies:
+I've tested this module against AngularJS 1.2 and 1.3. To run the unit tests, clone the repository and install the dependencies:
 
     git clone https://github.com/benharold/angular-haversine.git /path/to/destination
     cd /path/to/destination && npm install && bower install
+    
+Notice that I have the `osx` reporter enabled, so if you're on linux or Windows I assume you'll have to disable it. Now you can run `karma`:
+    
     karma start
     
-Notice that I have the `osx` reporter enabled, so if you're on linux or Windows I assume you'll have to disable it.
-
 -
 [MIT License](http://opensource.org/licenses/MIT)

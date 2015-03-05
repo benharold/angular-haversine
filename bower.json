@@ -6,7 +6,12 @@
     "angular-haversine.js"
   ],
   "ignore": [
-    "package.json"
+    ".gitignore",
+    "bower.json",
+    "karma.conf.js",
+    "package.json",
+    "test",
+    "README.md"
   ],
   "dependencies": {
     "angular": ">=1.2"
