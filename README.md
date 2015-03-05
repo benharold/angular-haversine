@@ -2,7 +2,7 @@
 
 A simple AngularJS module that uses the [haversine formula](http://en.wikipedia.org/wiki/Haversine_formula) to calculate the distance between two coordinates.
 
-Adapted from [haversine for Node.js](https://github.com/niix/haversine) for Node.js
+Adapted from [haversine for Node.js](https://github.com/niix/haversine) by [niix](https://github.com/niix).
 
 ## Changelog
 
@@ -45,7 +45,7 @@ I've tested this module against AngularJS 1.2 and 1.3. To run the unit tests, cl
     git clone https://github.com/benharold/angular-haversine.git /path/to/destination
     cd /path/to/destination && npm install && bower install
     
-Notice that I have the `osx` reporter enabled, so if you're on linux or Windows I assume you'll have to disable it. Now you can run `karma`:
+Notice that I have the `osx` reporter defined as a dependency in `package.json` and enabled in `karma.conf.js`, so if you're on linux or Windows I assume you'll have to disable it. Now you can run `karma`:
     
     karma start
     
