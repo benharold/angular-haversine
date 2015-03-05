@@ -1,0 +1,17 @@
+{
+  "name": "angular-haversine",
+  "version": "1.0.0",
+  "main": [
+    "angular-haversine.js"
+  ],
+  "ignore": [
+    "package.json"
+  ],
+  "dependencies": {
+    "angular": ">=1.2.28"
+  },
+  "devDependencies": {
+    "angular": ">=1.2.28",
+    "angular-mocks": "~1.2.28"
+  }
+}

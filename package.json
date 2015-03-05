@@ -1,0 +1,33 @@
+{
+  "name": "angular-haversine",
+  "version": "1.0.0",
+  "description": "A simple haversine module",
+  "main": "angular-haversine.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "karma start test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benharold/angular-haversine"
+  },
+  "keywords": [
+    "haversine",
+    "distance",
+    "coordinates",
+    "geolocation"
+  ],
+  "contributors": [
+    "Nick Justice (niix)",
+    "Ben Harold"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "karma": "*",
+    "karma-osx-reporter": "^0.2.0",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "karma-spec-reporter": "0.0.16"
+  }
+}
